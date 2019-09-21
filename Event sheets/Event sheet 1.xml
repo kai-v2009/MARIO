@@ -2,5 +2,114 @@
 <c2eventsheet>
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Event sheet 1</name>
-    <events />
+    <events>
+        <variable constant="0" name="helth" sid="969389992980064" static="0" type="number">100</variable>
+        <variable constant="0" name="Variable1" sid="737548844768709" static="0" type="number">0</variable>
+        <event-block sid="576307181197585">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="187561315690113" type="Sprite2">
+                    <param id="0" name="Object">Sprite21</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="836488169202420" type="Sprite21" />
+                <action id="-10" name="Add to" sid="869680010085348" type="System">
+                    <param id="0" name="Variable">Variable1</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="-10" name="Add to" sid="780188981303467" type="System">
+                    <param id="0" name="Variable">helth</param>
+                    <param id="1" name="Value">25</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="288421022093183">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="448686377628211" type="Sprite2">
+                    <param id="0" name="Object">Sprite19</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="335648147164366" type="Sprite19" />
+                <action id="-10" name="Add to" sid="661818368187365" type="System">
+                    <param id="0" name="Variable">Variable1</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="-10" name="Add to" sid="615296728317918" type="System">
+                    <param id="0" name="Variable">helth</param>
+                    <param id="1" name="Value">25</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="873509642081101">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="325961729142428" type="Sprite2">
+                    <param id="0" name="Object">Sprite20</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="351168782561445" type="Sprite20" />
+                <action id="-10" name="Add to" sid="488303702409746" type="System">
+                    <param id="0" name="Variable">Variable1</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="-10" name="Add to" sid="411712821386113" type="System">
+                    <param id="0" name="Variable">helth</param>
+                    <param id="1" name="Value">25</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="724102549153465">
+            <conditions>
+                <condition id="-1" name="Every tick" sid="962704281687587" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="522479487428109" type="Text">
+                    <param id="0" name="Text">Variable1</param>
+                </action>
+                <action id="-5" name="Set width" sid="899525823176414" type="TiledBackground2">
+                    <param id="0" name="Width">helth*2</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="998171491216449">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="989162872042124" type="Sprite2">
+                    <param id="0" name="Object">Sprite6</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-10" name="Add to" sid="442379190567247" type="System">
+                    <param id="0" name="Variable">helth</param>
+                    <param id="1" name="Value">-50</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="473857476864107">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="840238443598326" type="Sprite2">
+                    <param id="0" name="Object">Sprite7</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-10" name="Add to" sid="950727900447299" type="System">
+                    <param id="0" name="Variable">helth</param>
+                    <param id="1" name="Value">-50</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="382419570409110">
+            <conditions>
+                <condition id="-5" name="Compare width" sid="350539057895823" type="TiledBackground2">
+                    <param id="0" name="Comparison">3</param>
+                    <param id="1" name="Width">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Platform" id="11" name="Set enabled" sid="653383851696750" type="Sprite2">
+                    <param id="0" name="State">0</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
 </c2eventsheet>

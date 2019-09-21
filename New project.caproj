@@ -11,12 +11,12 @@
     <saved-with-version>26900</saved-with-version>
     <used-plugins>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Text" version="1">Text</plugin>
+        <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
     </used-plugins>
     <used-behaviors>
         <behavior author="Scirra" id="Bullet" version="1">Bullet</behavior>
-        <behavior author="Scirra" id="DragnDrop" version="1">Drag &amp; Drop</behavior>
         <behavior author="Scirra" id="Platform" version="1">Platform</behavior>
-        <behavior author="Scirra" id="jumpthru" version="1">Jump-thru</behavior>
         <behavior author="Scirra" id="scrollto" version="1">Scroll To</behavior>
         <behavior author="Scirra" id="solid" version="1">Solid</behavior>
         <behavior author="Scirra" id="wrap" version="1">Wrap</behavior>
@@ -67,7 +67,7 @@
                 <behavior-type name="Platform" sid="407016891309365">
                     <behavior id="Platform" />
                 </behavior-type>
-                <behavior-type name="ScrollTo" sid="352644491579717">
+                <behavior-type name="ScrollTo" sid="756930037454179">
                     <behavior id="scrollto" />
                 </behavior-type>
             </behaviors>
@@ -137,7 +137,7 @@
         <object-type name="Sprite7" sid="575959752770764">
             <plugin id="Sprite" />
             <behaviors>
-                <behavior-type name="Solid" sid="832161290183480">
+                <behavior-type name="Solid" sid="415302058623282">
                     <behavior id="solid" />
                 </behavior-type>
             </behaviors>
@@ -291,280 +291,61 @@
             </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="566214528406710" speed="5">
-                    <frame duration="1" hotspotX="0.501341" hotspotY="0.5" original-source="C:\Users\Vladi\Pictures\thXUE2953V.jpg" />
+                    <frame duration="1" hotspotX="0.501341" hotspotY="0.5" original-source="C:\Users\Vladi\Pictures\kisspng-sky-petal-wallpaper-cloud-5a8fabc7c39247.9324341515193650638011.jpg" />
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="Sprite20" sid="166113373421828">
+        <object-type name="Sprite8" sid="803146266495403">
             <plugin id="Sprite" />
-            <behaviors>
-                <behavior-type name="Solid" sid="515108699676635">
-                    <behavior id="solid" />
-                </behavior-type>
-            </behaviors>
             <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="399274164592470" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Vladi\Pictures\black-white-ipad-background-24.jpg" />
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="531348959485351" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Vladi\Pictures\Bigmac-500x500.jpg" />
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="Sprite21" sid="483036518553673">
+        <object-type name="Sprite19" sid="774095096797789">
             <plugin id="Sprite" />
-            <behaviors>
-                <behavior-type name="Solid" sid="144493110064771">
-                    <behavior id="solid" />
-                </behavior-type>
-            </behaviors>
             <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="111106968867174" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\sergs\Pictures\look.com.ua-84439.jpg" />
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="873561473759027" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Vladi\Pictures\Bigmac-500x500.jpg" />
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="Sprite22" sid="520079355067784">
+        <object-type name="Sprite20" sid="208081774520857">
             <plugin id="Sprite" />
-            <behaviors>
-                <behavior-type name="Solid" sid="687248615710083">
-                    <behavior id="solid" />
-                </behavior-type>
-            </behaviors>
             <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="517005418115844" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\sergs\Pictures\look.com.ua-84439.jpg" />
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="688645947269085" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Vladi\Pictures\Bigmac-500x500.jpg" />
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="Sprite23" sid="537705905299581">
+        <object-type name="Sprite21" sid="712855338476258">
             <plugin id="Sprite" />
-            <behaviors>
-                <behavior-type name="Platform" sid="452647232658985">
-                    <behavior id="Platform" />
-                </behavior-type>
-                <behavior-type name="ScrollTo" sid="895941065257452">
-                    <behavior id="scrollto" />
-                </behavior-type>
-            </behaviors>
             <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="851090744911150" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\sergs\Pictures\f3ef2e88ab53638f915ec6233f52f21a.png">
-                        <collision-poly>
-                            <point x="0.167959" y="0.125969" />
-                            <point x="0.5" y="0.188953" />
-                            <point x="0.916021" y="0.0629845" />
-                            <point x="0.916021" y="0.5" />
-                            <point x="0.998708" y="0.999031" />
-                            <point x="0.5" y="0.812016" />
-                            <point x="0" y="1" />
-                        </collision-poly>
-                    </frame>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="593831475208813" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Vladi\Pictures\Bigmac-500x500.jpg" />
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="Sprite8" sid="220502813656947">
-            <plugin id="Sprite" />
-            <behaviors>
-                <behavior-type name="Solid" sid="512117132265414">
-                    <behavior id="solid" />
-                </behavior-type>
-            </behaviors>
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="627645212667687" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Vladi\Pictures\untitled.png" />
-                </animation>
-            </animation-folder>
+        <object-type name="gory" sid="715004343941705">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\Vladi\Pictures\artek-karpaty_ver1_min.jpg" />
         </object-type>
-        <object-type name="Sprite19" sid="341013177566716">
-            <plugin id="Sprite" />
-            <behaviors>
-                <behavior-type name="DragDrop" sid="713313063964616">
-                    <behavior id="DragnDrop" />
-                </behavior-type>
-                <behavior-type name="Solid" sid="775718725749449">
-                    <behavior id="solid" />
-                </behavior-type>
-                <behavior-type name="Jumpthru" sid="206266515038160">
-                    <behavior id="jumpthru" />
-                </behavior-type>
-            </behaviors>
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="212103538567791" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Vladi\Pictures\untitled1.png" />
-                </animation>
-            </animation-folder>
+        <object-type name="Text" sid="114623733943100">
+            <plugin id="Text" />
         </object-type>
-        <object-type name="Sprite24" sid="455131302355343">
-            <plugin id="Sprite" />
-            <behaviors>
-                <behavior-type name="DragDrop" sid="508555475808828">
-                    <behavior id="DragnDrop" />
-                </behavior-type>
-                <behavior-type name="Solid" sid="410670960864368">
-                    <behavior id="solid" />
-                </behavior-type>
-                <behavior-type name="Jumpthru" sid="862259933844730">
-                    <behavior id="jumpthru" />
-                </behavior-type>
-            </behaviors>
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="624712731674804" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Vladi\Pictures\untitled1.png" />
-                </animation>
-            </animation-folder>
+        <object-type name="TiledBackground" sid="469235406079273">
+            <plugin id="TiledBg" />
+            <texture />
         </object-type>
-        <object-type name="Sprite25" sid="471725015969055">
-            <plugin id="Sprite" />
-            <behaviors>
-                <behavior-type name="Solid" sid="887700513818678">
-                    <behavior id="solid" />
-                </behavior-type>
-            </behaviors>
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="851322193767742" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Vladi\Pictures\black-white-ipad-background-24.jpg" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="Sprite26" sid="560487273155601">
-            <plugin id="Sprite" />
-            <behaviors>
-                <behavior-type name="Solid" sid="395183123282326">
-                    <behavior id="solid" />
-                </behavior-type>
-            </behaviors>
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="449420849593862" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Vladi\Pictures\black-white-ipad-background-24.jpg" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="Sprite27" sid="671451980103323">
-            <plugin id="Sprite" />
-            <behaviors>
-                <behavior-type name="DragDrop" sid="730667215231999">
-                    <behavior id="DragnDrop" />
-                </behavior-type>
-                <behavior-type name="Solid" sid="705773655052583">
-                    <behavior id="solid" />
-                </behavior-type>
-                <behavior-type name="Jumpthru" sid="539010637868463">
-                    <behavior id="jumpthru" />
-                </behavior-type>
-            </behaviors>
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="111996701212033" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Vladi\Pictures\untitled1.png" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="Sprite28" sid="403668081727989">
-            <plugin id="Sprite" />
-            <behaviors>
-                <behavior-type name="DragDrop" sid="648331581387202">
-                    <behavior id="DragnDrop" />
-                </behavior-type>
-                <behavior-type name="Solid" sid="433145624325451">
-                    <behavior id="solid" />
-                </behavior-type>
-                <behavior-type name="Jumpthru" sid="681178009350518">
-                    <behavior id="jumpthru" />
-                </behavior-type>
-            </behaviors>
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="107387089987097" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Vladi\Pictures\untitled1.png" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="Sprite29" sid="689064807604867">
-            <plugin id="Sprite" />
-            <behaviors>
-                <behavior-type name="DragDrop" sid="512634283983935">
-                    <behavior id="DragnDrop" />
-                </behavior-type>
-                <behavior-type name="Solid" sid="605421524590989">
-                    <behavior id="solid" />
-                </behavior-type>
-                <behavior-type name="Jumpthru" sid="461642304588522">
-                    <behavior id="jumpthru" />
-                </behavior-type>
-            </behaviors>
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="824941440368357" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Vladi\Pictures\untitled1.png" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="Sprite30" sid="219361195626666">
-            <plugin id="Sprite" />
-            <behaviors>
-                <behavior-type name="DragDrop" sid="112797671599074">
-                    <behavior id="DragnDrop" />
-                </behavior-type>
-                <behavior-type name="Solid" sid="342269512673814">
-                    <behavior id="solid" />
-                </behavior-type>
-                <behavior-type name="Jumpthru" sid="604146126541476">
-                    <behavior id="jumpthru" />
-                </behavior-type>
-            </behaviors>
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="542693332260209" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Vladi\Pictures\untitled1.png" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="Sprite31" sid="882335014225544">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="762742529895928" speed="5">
-                    <frame duration="1" hotspotX="0.501124" hotspotY="0.5" original-source="C:\Users\sergs\Pictures\6_9.jpg" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="Sprite32" sid="940604541201710">
-            <plugin id="Sprite" />
-            <behaviors>
-                <behavior-type name="Solid" sid="895579735763927">
-                    <behavior id="solid" />
-                </behavior-type>
-            </behaviors>
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="399164490847519" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Vladi\Pictures\untitled.png" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="Sprite33" sid="831086468473357">
-            <plugin id="Sprite" />
-            <behaviors>
-                <behavior-type name="Solid" sid="477490389905802">
-                    <behavior id="solid" />
-                </behavior-type>
-            </behaviors>
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="500260708544370" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Vladi\Pictures\untitled.png" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="Sprite34" sid="625884608759553">
-            <plugin id="Sprite" />
-            <behaviors>
-                <behavior-type name="Solid" sid="396798047634492">
-                    <behavior id="solid" />
-                </behavior-type>
-            </behaviors>
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="815242994840652" speed="5">
-                    <frame duration="1" hotspotX="0.501341" hotspotY="0.5" original-source="C:\Users\Vladi\Pictures\thXUE2953V.jpg" />
-                </animation>
-            </animation-folder>
+        <object-type name="TiledBackground2" sid="209828976200720">
+            <plugin id="TiledBg" />
+            <texture />
         </object-type>
     </object-folder>
     <families />
     <layout-folder>
-        <layout>Layout 1.xml</layout>
-        <layout>Layout 2.xml</layout>
+        <layout>arfa.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>Event sheet 1.xml</event-sheet>
